@@ -1,0 +1,238 @@
+html {
+  background-color: rgba(255, 255, 1, 0.6);
+  height: 58rem;
+}
+
+body {
+  height: 58rem;
+}
+
+.item {
+  font-family: Raleway;
+}
+
+.Header {
+  width: 100%;
+  height: 11rem;
+  background: linear-gradient(rgba(255, 255, 1, 1), rgba(255, 255, 1, 0.65));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 5px;
+}
+
+.Logo img {
+  height: auto;
+  width: 18rem;
+  top: 0;
+}
+
+.Nav a{
+  text-decoration: none;
+  color: black;
+  opacity: 0.9;
+}
+
+.Nav {
+  padding-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+
+#portrait {
+  height: auto;
+  width: 28%;
+  float: left;
+  position: relative;
+  top: 12rem;
+}
+
+.background {
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    z-index: -1;
+    opacity: 0.9;
+    width: 100%;
+    position: relative;
+    height: 50rem;
+    top: 8rem;
+    background-image: url(https://ctk4uq.db.files.1drv.com/y4mifk9gFVvM6NjhmC8V8cfponRfRoZyZlpYyDxGY3nya2cojfYea8JuqdcPjRmsbv-LF-wcJOlxsHLzGBj-6qg6Vt3j_4K0Mic_kutcZWmZDyRocyJ7f0m3V3wytoFxv8O-hCp-50aXVkbHuxTy9PLqkuOCKnwnIhArS0pdh072Pi0DyRys7f50iqwvifypw6oF1QmQfnS2ba2IlFvvAWTWA?width=6016&height=4016&cropmode=none);
+}
+
+.Pricing {
+  padding: 0 3em;
+  top: -38rem;
+  height: 46rem;
+  display: block;
+  margin: auto;
+  width: 40%;
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+
+.Pricing h1 {
+  font-weight: 900;
+  font-size: 1.4em;
+  padding-top: 1em;
+  line-height: 2;
+}
+
+.Pricing ul {
+  width: 100%;
+  padding-top: 1em;
+  float: left;
+  list-style-type: circle;
+}
+
+.cost {
+  font-weight: 600;
+}
+
+.Pricing li {
+  font-size: 1.2em;
+  line-height: 1.8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pricing h2{
+  line-height: 3;
+  font-size: 1.2rem;
+}
+
+#Any {
+  display: none;
+}
+
+.Info {
+  padding-top: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.Insta {
+  width: 20%;
+  border-right: 1px solid rgba(255, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.Insta a {
+  padding-right: 1em;
+}
+
+.Contact {
+  text-align: center;
+  width: 100%;
+}
+
+.Contact h1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+#collection {
+  font-weight: 400;
+  line-height: 2;
+  font-size: 2.0vw;
+}
+
+iframe {
+  width: 100%;
+}
+
+#Puncture2 {
+  display: none;
+}
+
+#Almost {
+  font-size: 2vw;
+}
+
+@media only screen and (max-width: 836px) {
+  .Pricing {
+    width: 60%;
+  }
+
+  #Almost {
+    font-size: 3vw;
+  }
+
+  #collection {
+    font-size: 3.1vw;
+  }
+
+}
+
+@media only screen and (max-width: 565px) {
+  .Pricing {
+    width: 80%;
+  }
+
+  #collection {
+    font-size: 3.9vw;
+  }
+
+}
+
+@media only screen and (max-width: 487px) {
+  .Info {
+    flex-direction: column;
+  }
+
+  .Insta {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+  }
+
+  .Insta img {
+    padding: 0 0 1em 0;
+  }
+
+  #email {
+    font-size: 5.3vw;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .Nav {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  #Almost {
+    display: none;
+  }
+
+  #Puncture2 {
+    display: flex;
+  }
+
+  #Puncture1 {
+    display: none;
+  }
+
+  #Any {
+    display: inline;
+    font-size: 4.6vw;
+  }
+}
